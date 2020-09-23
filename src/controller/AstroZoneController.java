@@ -1,8 +1,6 @@
 package controller;
 
 import java.io.IOException;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -11,8 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import model.User;
-import service.AstroCalculator;
 
 @WebServlet(urlPatterns = {"/astrozone"})
 public class AstroZoneController extends HttpServlet {
